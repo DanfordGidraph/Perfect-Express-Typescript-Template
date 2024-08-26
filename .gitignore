@@ -1,0 +1,12 @@
+node_modules/
+downloads/
+screenshots/
+express/
+src/**/secrets/*.*
+
+
+# Macos 
+.DS_Store
+
+# Environment
+.env
