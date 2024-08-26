@@ -28,3 +28,6 @@ export type JWTPayload = {
     "role": string
     "username": string
 }
+
+export type WhereFilterOp = '==' | '<' | '<=' | '>' | '>=' | 'array-contains' | 'in' | 'array-contains-any';
+
